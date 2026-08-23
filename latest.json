@@ -1,9 +1,9 @@
 {
-  "version": "0.3.3",
-  "notes": "Reset gone. Voice works. Auto-update in Settings. Cmd/Ctrl zoom. Max model loads. Check for updates if you already have 0.3.2.",
+  "version": "0.3.4",
+  "notes": "macOS now plays Kokoro (same engine as Windows/Linux), not the system say voice.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.3/Whisper-Flow-Windows-x64-0.3.3.zip",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.3/Whisper-Flow-Linux-x64-0.3.3.zip",
-    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.3/Whisper-Flow-macOS-0.3.3.zip"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-Windows-x64-0.3.4.zip",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-Linux-x64-0.3.4.zip",
+    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-macOS-0.3.4.zip"
   }
 }
