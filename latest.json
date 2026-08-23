@@ -1,9 +1,9 @@
 {
-  "version": "0.3.4",
-  "notes": "macOS now plays Kokoro (same engine as Windows/Linux), not the system say voice.",
+  "version": "0.3.5",
+  "notes": "Keyboard: bouncing word marker, live speed, 90 app drills, Kokoro stays warm so Listen is fast.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-Windows-x64-0.3.4.zip",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-Linux-x64-0.3.4.zip",
-    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.4/Whisper-Flow-macOS-0.3.4.zip"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-Windows-x64-0.3.5.zip",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-Linux-x64-0.3.5.zip",
+    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-macOS-0.3.5.zip"
   }
 }
