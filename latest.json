@@ -1,9 +1,8 @@
 {
-  "version": "0.3.5",
-  "notes": "Keyboard: bouncing word marker, live speed, 90 app drills, Kokoro stays warm so Listen is fast.",
+  "version": "0.3.6",
+  "notes": "Removes the Max model (slower than Quality and no more precise), fixes model switching hanging on Starting, darkens the Retry buttons on Aurora and Oceanic, and surfaces the real reason when voice playback fails.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-Windows-x64-0.3.5.zip",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-Linux-x64-0.3.5.zip",
-    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.5/Whisper-Flow-macOS-0.3.5.zip"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.6/Whisper-Flow-Windows-x64-0.3.6.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.6/Whisper-Flow-Linux-x64-0.3.6.AppImage"
   }
 }
