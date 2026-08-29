@@ -1,8 +1,8 @@
 {
-  "version": "0.3.6",
-  "notes": "Removes the Max model (slower than Quality and no more precise), fixes model switching hanging on Starting, darkens the Retry buttons on Aurora and Oceanic, and surfaces the real reason when voice playback fails.",
+  "version": "0.3.8",
+  "notes": "Fixes panels that stayed white on dark themes — keyboard test, calendar, capsule cards, chips and the sidebar now follow the theme you picked. Model options are renamed to match real speed on Windows and Linux: the large model is more accurate but slower here, not faster. Mini stays the default.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.6/Whisper-Flow-Windows-x64-0.3.6.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.6/Whisper-Flow-Linux-x64-0.3.6.AppImage"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.8/Whisper-Flow-Windows-x64-0.3.8.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.8/Whisper-Flow-Linux-x64-0.3.8.AppImage"
   }
 }
