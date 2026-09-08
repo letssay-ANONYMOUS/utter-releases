@@ -1,4 +1,4 @@
-# Whisper Flow updates
+# Utter updates
 
 Installers live on GitHub Releases. Windows and Linux update themselves in
 place; `latest.json` still serves older builds and macOS.

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.8",
-  "notes": "Fixes panels that stayed white on dark themes — keyboard test, calendar, capsule cards, chips and the sidebar now follow the theme you picked. Model options are renamed to match real speed on Windows and Linux: the large model is more accurate but slower here, not faster. Mini stays the default.",
+  "version": "0.3.9",
+  "notes": "Fixes the slow transcription on Windows: the model in use was being evicted after every dictation, so each one reloaded it from disk before decoding. Capsule animation rates now match macOS exactly. Blank dashboard now retries instead of staying blank.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.8/Whisper-Flow-Windows-x64-0.3.8.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.8/Whisper-Flow-Linux-x64-0.3.8.AppImage"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.9/Utter-Windows-x64-0.3.9.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.9/Utter-Linux-x64-0.3.9.AppImage"
   }
 }
