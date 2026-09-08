@@ -1,8 +1,8 @@
 {
-  "version": "0.3.9",
-  "notes": "Fixes the slow transcription on Windows: the model in use was being evicted after every dictation, so each one reloaded it from disk before decoding. Capsule animation rates now match macOS exactly. Blank dashboard now retries instead of staying blank.",
+  "version": "0.4.0",
+  "notes": "Windows now decodes on the GPU. The build was running ONNX on the CPU with the device hardcoded, so a laptop with a discrete GPU was slower than a MacBook because the GPU was never asked to do anything. DirectML drives any DX12 GPU (NVIDIA, AMD, Intel) with no CUDA install; CPU remains the fallback if the GPU refuses to initialise.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.9/Utter-Windows-x64-0.3.9.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.3.9/Utter-Linux-x64-0.3.9.AppImage"
+    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.4.0/Utter-Windows-x64-0.4.0.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.4.0/Utter-Linux-x64-0.4.0.AppImage"
   }
 }
