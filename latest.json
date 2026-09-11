@@ -1,9 +1,9 @@
 {
   "version": "0.4.1",
-  "notes": "GPU transcription on Windows (DirectML) and Linux (CUDA/WebGPU, CPU fallback). Fast/Quality auto-detect spoken language and keep it — Spanish and Arabic are no longer forced to English. Mini stays English-only.",
+  "notes": "Update feed lives at github.com/letssay-ANONYMOUS/utter-releases (renamed from whisper-flow-releases). GPU + Fast auto-language from 0.4.1.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.4.1/Utter-Windows-x64-0.4.1.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.4.1/Utter-Linux-x64-0.4.1.AppImage",
-    "darwin": "https://github.com/letssay-ANONYMOUS/whisper-flow-releases/releases/download/v0.4.1/Utter-macOS-0.4.1.zip"
+    "win32": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-Windows-x64-0.4.1.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-Linux-x64-0.4.1.AppImage",
+    "darwin": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-macOS-0.4.1.zip"
   }
 }
