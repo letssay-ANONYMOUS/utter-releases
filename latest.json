@@ -1,9 +1,8 @@
 {
-  "version": "0.4.1",
-  "notes": "Update feed lives at github.com/letssay-ANONYMOUS/utter-releases (renamed from whisper-flow-releases). GPU + Fast auto-language from 0.4.1.",
+  "version": "0.5.0",
+  "notes": "Works out of the box. A starter speech model now ships inside the app, so a fresh install transcribes on first launch with no download and no network — previously the app did nothing until a 0.5-1.6GB fetch finished, which failed outright on slow, throttled or blocked connections. If you pick a larger tier it downloads in the background while dictation keeps working on the bundled one. Also: only one model stays in memory at a time.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-Windows-x64-0.4.1.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-Linux-x64-0.4.1.AppImage",
-    "darwin": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.4.1/Utter-macOS-0.4.1.zip"
+    "win32": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.0/Utter-Windows-x64-0.5.0.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.0/Utter-Linux-x64-0.5.0.AppImage"
   }
 }
