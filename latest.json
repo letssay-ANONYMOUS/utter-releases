@@ -1,8 +1,8 @@
 {
-  "version": "0.5.0",
-  "notes": "Works out of the box. A starter speech model now ships inside the app, so a fresh install transcribes on first launch with no download and no network — previously the app did nothing until a 0.5-1.6GB fetch finished, which failed outright on slow, throttled or blocked connections. If you pick a larger tier it downloads in the background while dictation keeps working on the bundled one. Also: only one model stays in memory at a time.",
+  "version": "0.5.1",
+  "notes": "A corrupt model cache now repairs itself. A load that fails without downloading anything means the file on disk is bad — truncated by a dropped connection — and it used to fail identically forever, because nothing re-fetches a file that is already there. It is now cleared and refetched once. Also: when a take is served by the bundled starter model while a larger tier downloads, the capsule says so instead of quietly appearing to get worse.",
   "downloads": {
-    "win32": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.0/Utter-Windows-x64-0.5.0.exe",
-    "linux": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.0/Utter-Linux-x64-0.5.0.AppImage"
+    "win32": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.1/Utter-Windows-x64-0.5.1.exe",
+    "linux": "https://github.com/letssay-ANONYMOUS/utter-releases/releases/download/v0.5.1/Utter-Linux-x64-0.5.1.AppImage"
   }
 }
